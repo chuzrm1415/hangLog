@@ -1,5 +1,5 @@
 % ===== logic.pl =====
-:- module(logic,[show_current_state/2, letter_in_word/2, word_complete/1, debug_letras_usadas/0, letter_used/1]).
+:- module(logic,[show_current_state/2, letter_in_word/2, word_complete/1, letter_used/1]).
 :- dynamic letter_used/1.
 
 % Show the current state of the word with used letters
